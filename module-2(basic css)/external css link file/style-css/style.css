@@ -1,0 +1,31 @@
+h1{
+    color: aqua;
+    background-color: black;
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: larger; */
+    font-size: xx-large;
+    border: 10px solid peru;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+h2{
+    color: blue;
+    background-color: black;
+    font-weight: 700;
+    /* border: 3px dashed darkmagenta; */
+}
+.pra{
+    color: blue;
+    font-size: larger;
+    font-weight: 700;
+    background-color: black;
+    border: 5px solid rebeccapurple;
+}
+#br{
+    color: chocolate;
+    background-color: aquamarine;
+    font-weight: 700;
+    font-size: larger;
+}

@@ -1,0 +1,21 @@
+h1{
+    color: darkorange;
+    height: 400px;
+    background-image: url("../images/computer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: aqua; */
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: xx-large;
+    border: 10px solid palevioletred;
+}
+p{
+    color: palevioletred;
+    background-color: black;
+    font-weight: 700;
+    font-style: oblique;
+}
