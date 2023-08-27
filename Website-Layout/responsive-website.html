@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thsi is a responsive website</title>
+    <style>
+        /* for relative measuring unit */
+        h1{
+            font-size: 10vw;
+        }
+        /* For responsive image */
+        .img img{
+            width: 100%;
+        }
+        /* body max-width and margine-auto */
+        body{
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        /* split image using flex */
+
+        .split-img{
+            display: flex;
+            width: 50%;
+            margin-top: 40px;
+        }
+        .split-img img{
+            width: 100%;
+        }
+        /* for grid using multiple columns */
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin-top: 40px;
+        }
+        .food img{
+            width: 100%;
+            border: 2px solid lawngreen;
+        }
+        /* media quairy */
+        @media screen and (max-width: 576px){
+            .split-img{
+                display: flex;
+                flex-direction: column;
+                background-color: blueviolet;
+                
+            }
+            
+        }
+        @media screen and (min-width: 577px) and (max-width:700px){
+            .container{
+                background-color: darkorange;
+               
+            }
+            
+        }
+    </style>
+</head>
+<body>
+     <!-- For relative measuring units -->
+    <section class="relative-measuring-unit">
+       
+    <h1>this is a responsive website</h1>
+    </section>
+    <!-- For responsive image(fluide image) -->
+    <section class="responsive-image">
+        <div class="img">
+            <img src="./images/tiger.jpg" alt="">
+
+        </div>
+
+    </section>
+    <!-- body max-width and margin auto -->
+    <section class="body-max-width-margin-auto">
+
+
+    </section>
+    <!-- split screen using flex -->
+    <section class="split-flex">
+        <div class="split-img">
+            <img src="./images/food.jpg" alt="">
+            <img src="./images/tiger.jpg" alt="">
+        </div>
+
+    </section>
+    <!-- grid responsive for multipol colomns -->
+    <section class="grid-multiple-coloumn">
+        <div class="container">
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+            <div class="food"><img src="./images/food.jpg" alt=""></div>
+        </div>
+
+    </section>
+    
+</body>
+</html>

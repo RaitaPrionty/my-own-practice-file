@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login style using flex</title>
+    <style>
+        .log-in-form{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            /* border: 2px solid darkblue; */
+            /* justify-content: center; */
+        }
+        .form{
+display: flex;
+justify-content: center;
+        }
+        .log-in-form input{
+            margin-top: 20px;
+            align-items: center;
+        }
+        .submit{
+            background-color: lightskyblue;
+            color: whitesmoke;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            justify-content: space-around;
+        }
+        .img{
+            display: flex;
+            gap: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="a">
+            <a href="">Home</a>
+            <a href="">Page</a>
+            <a href="">log in</a>
+        </nav>
+        <nav class="img">
+            <img style="height: 50px; width: 50px;" src="./images/user.png" alt="">
+            <img style="height: 50px; width: 50px;" src="./images/signout.png" alt="">
+        </nav>
+    </header>
+    <h1>login using flex</h1>
+   <div class="form">
+    <form class="log-in-form" >
+        <h2>login please</h2>
+        <label for="name"> Your Name:
+            <input type="text" placeholder="your name">
+        </label>
+        <label for="name"> Your Number:
+            <input type="number" name="number" id="Your Number" placeholder="number">
+        </label>
+        <label for="name"> Your Email:
+           <input type="email" name="email" id="Your Email" placeholder="inter your email">
+        </label>
+        <label for="name"> Your Passworsd:
+          <input type="password" name="password" id="Your Passworsd" placeholder="inter your password">
+        </label>
+        <input  class="submit" type="submit" value="log in">
+    </form>
+   </div>
+    
+</body>
+</html>
